@@ -1,0 +1,2 @@
+rootProject.name = "MAD-MID-F2017266460"
+include ':app'

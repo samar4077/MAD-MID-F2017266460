@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/_20sdp"
+    android:layout_marginRight="@dimen/_20sdp"
+    android:orientation="vertical"
+    android:alpha="0.8">
+
+    <ImageView
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:src="@mipmap/question"
+        android:layout_marginLeft="@dimen/_110sdp">
+        
+    </ImageView>
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:background="@color/purple"
+        android:textColor="@color/white"
+        android:hint="Enter Item"
+        android:textColorHint="@color/white"
+        android:drawableLeft="@drawable/menu"
+        android:padding="@dimen/_4sdp"
+        android:drawablePadding="@dimen/_11sdp">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/saveitembutton"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:text="save item"
+        android:textColor="@color/white"
+        android:background="@drawable/savebck"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginBottom="@dimen/_20sdp">
+
+    </Button>
+
+</LinearLayout>
